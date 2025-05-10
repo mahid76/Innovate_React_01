@@ -14,7 +14,7 @@ const Footer = () => {
       <Container>
         <div className='flex justify-between'>
           <div>
-          <Logo2></Logo2>
+          <a href="#"><Logo2></Logo2></a>
           <p className='font-secondary text-[16px] leading-[28px] text-subtext w-[263px] mt-[26px] mb-[24px]  '>Build a modern and creative website with Innovate.</p>
           <div className='flex gap-x-[6px]'>
             <img src={gmail} alt="" />

@@ -12,7 +12,7 @@ const Navbar = () => {
 					{/* <a href="#">
 						<img src={logo} alt="logo" />
 					</a> */}
-					<Logo></Logo>
+					<a href="#"><Logo></Logo></a>
 
 					<ul className="flex gap-x-[68px] items-center font-secondary text-lg font-medium ">
 						<li>
