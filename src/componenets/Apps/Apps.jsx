@@ -6,6 +6,7 @@ import Apps4 from "../CustomLogo/Apps4";
 import Apps5 from "../CustomLogo/Apps5";
 import Apps6 from "../CustomLogo/Apps6";
 import Apps7 from "../CustomLogo/Apps7";
+import Ellipse from '../../assets/appsLogo and Ellipse.png'
 import Container from "../Layout/Container";
 
 const Apps = () => {
@@ -47,6 +48,9 @@ const Apps = () => {
 							<Apps7></Apps7>
 						</div>
 					</div>
+				</div>
+				<div className="absolute bottom-0 left-0 transform -translate-x-full translate-y-full"> 
+					<img src={Ellipse} alt="Ellipse" />
 				</div>
 			</Container>
 		</section>

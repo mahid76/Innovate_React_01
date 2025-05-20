@@ -1,11 +1,11 @@
 import About from "./componenets/About/About";
 import Apps from "./componenets/Apps/Apps";
 import Bannner from "./componenets/Banner/Bannner";
-import Contact from "./componenets/Contact/Contact";
+// import Contact from "./componenets/Contact/Contact";
 import Customer from "./componenets/Customer/Customer";
 import Features from "./componenets/Features/Features";
 import Footer from "./componenets/Footer/Footer";
-import Hcontact from "./componenets/Hcontact/Hcontact";
+// import Hcontact from "./componenets/Hcontact/Hcontact";
 
 import HeadCustomer from "./componenets/HeadCustomer/HeadCustomer";
 import Header from "./componenets/Header/Header";
@@ -31,9 +31,6 @@ function App() {
 			</HeadCustomer>
 			<Pricing></Pricing>
 			<About></About>
-			<Hcontact>
-				<Contact></Contact>
-			</Hcontact>
 			<Footer></Footer>
 			
 		</>

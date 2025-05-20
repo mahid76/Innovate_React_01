@@ -31,7 +31,11 @@
 box-shadow: 10px 10px 44px -2px rgba(7,85,80,0.07);
 }
 
-
+.slick-slider .slick-track, .slick-slider .slick-list {
+    border-radius: 20px !important;
+    margin-left: 5px;
+    
+}
 
 
 

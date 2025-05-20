@@ -6,12 +6,24 @@ import x from '../../assets/x.png'
 import insta from '../../assets/insta.png'
 import linkedin from '../../assets/linkedin.png'
 import send from '../../assets/send.png'
+import headContact from "../../assets/contactBanner.png"
 
 
 const Footer = () => {
   return (
-    <div className='pt-[124px] pb-[30px]'>
+    <div className='pt-[291px] pb-[30px] bg-[#F7F7FC] mt-[309px]'>
       <Container>
+        <div className='absolute -top-[449px] left-0] left-0'>
+          <div className='flex relative '>
+            <img src={headContact} alt="headContact" 
+          />
+          <div className='absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 w-[1205px] flex justify-between items-center'>
+      <h2 className='w-[577px] font-primary font-bold text-[46px] leading-[58px] text-white  '>Don’t find the answer? contact us for any query. </h2>
+      <a className='py-5 px-12 rounded-[6px] bg-secondary text-headtext font-secondary font-medium leading-5 text-lg ' href="#">Contact Us</a>
+    </div>
+          </div>
+          
+        </div>
         <div className='flex justify-between'>
           <div>
           <a href="#"><Logo2></Logo2></a>

@@ -64,6 +64,10 @@ const Work = () => {
           ))}
         </div>
         <div className='text-center'><a className='hover:bg-primary hover:text-white  duration-300 border border-primary rounded-[6px]  font-secondary py-5 px-12 font-medium text-lg leading-5 text-primary' href="#">View More</a></div>
+
+
+
+        
         
       </Container>
 
