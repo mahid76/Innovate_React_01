@@ -29,28 +29,28 @@ const Platform = () => {
 
 
 	return (
-		<section className="pt-[336.15px] py-[160px] ">
+		<section className=" pt-30 md:pt-[336.15px] pb-[75px] md:pb-[160px] ">
 			<Container>
-				<div className=" p-[62px]">
-					<div className="flex justify-between">
-						<h3 className="w-[504px] font-primary font-bold text-[46px] le-[58px] tracking-[-1px] text-headtext  ">
+				<div className=" ">
+					<div className="md:flex  justify-between">
+						<h3 className="w-auto md:w-[504px] font-primary font-bold text-[20px] md:text-[46px] md:leading-[58px] tracking-[-0.5px] md:tracking-[-1px] text-headtext  ">
 							How simple is it to use our platform?
 						</h3>
-						<p className="w-[530px] font-secondary font-normal text-lg le-[32px] tracking-[-0.25%] text-subtext">
+						<p className="w-auto md:w-[530px] font-secondary font-normal text-[14px]  md:text-lg leading-6 md:leading-[32px] mt-2 md:mt-0 tracking-[-0.25%] text-subtext">
 							This Innovate Con guide explores the most popular platforms and
 							walks you through how to use them to grow your business.
 						</p>
 					</div>
-					<div className="flex justify-between">
+					<div className="flex-wrap flex justify-center md:justify-between">
 
             {
               platformData.map((item)=>(
-                <div className="pt-[116px] w-[300px] text-center ">
-                  <img className="mx-auto" src={item.img} alt="platform01" />
-                  <h4 className=" pt-[26px] pb-3 font-bold font-primary text-2xl leading-9 text-headtext ">
+                <div className="pt-[70px] md:pt-[116px] w-[300px] text-center ">
+                  <img className="mx-auto md:w-auto w-22 " src={item.img} alt="platform01" />
+                  <h4 className="pt-[15px] pb-2 md:pt-[26px] md:pb-3 font-bold font-primary text-[20px] md:text-2xl leading-9 text-headtext ">
 								{item.title}
 							</h4>
-              <p className=" font-secondary leading-8 tracking-[-0.25%] text-lg text-subtext ] ">
+              <p className=" font-secondary leading-6 md:leading-8 md:tracking-[-0.25%] text-lg text-subtext ] ">
 								{item.description}
 							</p>
                 </div>

@@ -14,17 +14,16 @@ import Platform from "./componenets/Platform/Platform";
 import Pricing from "./componenets/Pricing/Pricing";
 import Work from "./componenets/Work/Work";
 
-
 function App() {
 	return (
 		<>
 			<Header>
-        <Navbar></Navbar>
+				<Navbar></Navbar>
 				<Bannner></Bannner>
 			</Header>
 			<Platform></Platform>
 			<Features></Features>
-      <Apps></Apps>
+			<Apps></Apps>
 			<Work></Work>
 			<HeadCustomer>
 				<Customer></Customer>
@@ -32,7 +31,6 @@ function App() {
 			<Pricing></Pricing>
 			<About></About>
 			<Footer></Footer>
-			
 		</>
 	);
 }

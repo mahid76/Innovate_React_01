@@ -2,6 +2,7 @@ const Logo = () => {
 	return (
 		<div>
 			<svg
+				className="w-[70px] md:w-[111px] "
 				xmlns="http://www.w3.org/2000/svg"
 				width="111"
 				height="60"
@@ -72,3 +73,4 @@ const Logo = () => {
 };
 
 export default Logo;
+

@@ -64,12 +64,7 @@ const About = () => {
 						</div>
 					</div>
 					<div className="w-1/2  ">
-						
-            <AboutSlider></AboutSlider>
-
-						
-							
-						
+						<AboutSlider></AboutSlider>
 					</div>
 				</div>
 			</Container>
@@ -79,8 +74,8 @@ const About = () => {
 
 export default About;
 
-
-{/* <div className="w-[687px] h-[346px] bg-white rounded-[20px] pt-[64px] pb-[50px] px-[60px] relative mt-[117px]  ">
+{
+	/* <div className="w-[687px] h-[346px] bg-white rounded-[20px] pt-[64px] pb-[50px] px-[60px] relative mt-[117px]  ">
 								<p className="font-secondary text-[22px] leading-11 text-subtext mb-[37px]  ">
 									“Wow. Amazing company amazing Expert Manager. They know how to
 									get things done when it comes to online trading.
@@ -123,4 +118,5 @@ export default About;
 									</div>
                   <div className="absolute -top-[70px] left-[38px] rounded-full w-[124px] h-[124px] bg-[#C4C4C4] border-[10px] border-[#F7F7FC] "></div>
 								</div>
-							</div> */}
+							</div> */
+}
