@@ -8,8 +8,9 @@ const Apps7 = () => {
 				width="196"
 				height="143"
 				viewBox="0 0 196 143"
+				preserveAspectRatio="xMidYMid meet"
 				fill="none"
-				className="group cursor-pointer custom_shadow "
+				className="group w-[103px] md:w-[196px] h-auto cursor-pointer custom_shadow "
 			>
 				<rect y="0.143066" width="196" height="142" rx="11.4932" fill="white" />
 				<g clip-path="url(#clip0_3_1153)">

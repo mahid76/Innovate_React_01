@@ -18,10 +18,10 @@ const Apps = () => {
 						<h5 className="font-secondary text-[18px] md:text-[20px] font-medium text-[#FF7364] ">
 							Integrations
 						</h5>
-						<h1 className="mt-1 mb-3 md:mb-5 mx-w-[587px] font-primary text-[30px]  md:text-[46px] font-bold text-headtext md:leading-[58px] tracking-[-1%] ">
+						<h1 className="mt-1 mb-3 md:mb-5 max-w-[587px] font-primary text-[30px]  md:text-[46px] font-bold text-headtext md:leading-[58px] tracking-[-1%] ">
 							Easily integrate with your favorite apps
 						</h1>
-						<p className="mx-w-[533px] font-secondary md:leading-8 tracking-[-0.25%] text-[18px] md:text-lg text-subtext mb-10  ">
+						<p className="max-w-[533px] font-secondary md:leading-8 tracking-[-0.25%] text-[18px] md:text-lg text-subtext mb-10  ">
 							App integration, in a general sense, is the process of bringing
 							resources or capabilities from one application to another. As the
 							world of apps continues to evolve, app integration is becoming
@@ -33,18 +33,18 @@ const Apps = () => {
 						</div>
 					</div>
 					<div className="mt-10 md:mt-0">
-						<div className=" flex md:flex-row flex-col  hello gap-y-3 md:gap-y-0 md:gap-x-[30px]">
+						<div className=" flex md:flex-row  gap-x-[10px] flex-wrap     md:gap-x-[30px]">
 							<Apps1></Apps1>
 							<Apps2></Apps2>
 						</div>
-						<div className=" flex md:flex-row flex-col gap-x-[30px] my-[34px] gap-y-3 md:gap-y-0 ">
+						<div className=" flex md:flex-row flex-wrap  gap-x-[5px] md:gap-x-[30px] my-4 md:my-[34px]   ">
 							<Apps3></Apps3>
 							<Apps4></Apps4>
 							<Apps5></Apps5>
 						</div>
-						<div className=" flex md:flex-row flex-col gap-x-[30px] gap-y-3 md:gap-y-0 ">
+						<div className=" flex md:flex-row flex-wrap   gap-x-[10px] md:gap-x-[30px]  ">
 							<Apps6></Apps6>
-							<Apps5></Apps5>
+							<Apps5 ></Apps5>
 							<Apps7></Apps7>
 						</div>
 					</div>
