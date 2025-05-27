@@ -38,27 +38,29 @@ const Work = () => {
 
 
   return (
-    <section className='py-[140px]'>
+    <section className='py-15 md:py-[140px]'>
       <Container>
         <div className='text-center'>
-          <h4 className='font-secondary text-[20px] font-medium text-[#FF7364]'>Our Services</h4>
-          <h2 className='font-primary font-bold text-[46px] leading-[58px] text-headtext '>How It Works</h2>
+          <h4 className='font-secondary text-[14px] md:text-[20px] font-medium text-[#FF7364]'>Our Services</h4>
+          <h2 className='font-primary font-bold text-[25px] md:text-[46px] md:leading-[58px] text-headtext '>How It Works</h2>
         </div>
-        <div className='flex justify-between my-20'>
+        <div className='flex gap-y-3 md:gap-y-0 flex-wrap md:justify-between justify-center my-20'>
           {
           workData.map((item)=> (
-            <div className='p-9 rounded-[20px] border  border-[#DCE7FE] group hover:bg-primary transition-all' >
+            <div className='md:p-9 p-5 rounded-[20px] border bg-primary md:bg-white  border-[#DCE7FE] group hover:bg-primary transition-all' >
               
               {item.img}
               
-              <h4 className='group-hover:text-white transition-all font-primary font-bold text-[22px] leading-[34px] text-headtext mt-[26px] mb-2  '>{item.title}</h4>
-              <p className='group-hover:text-white transition-all font-secondary text-[16px] leading-[26px] w-[258px] tracking-[-0.25%] text-subtext mb-[26px] '>{item.description}</p>
-              <div className='flex items-center gap-[6.5px] cursor-pointer'>
-              <p className='group-hover:text-white transition-all font-secondary font-medium text-[16px] leading-[26px] text-primary ' >Read More 
+              <h4 className='group-hover:text-white transition-all font-primary font-bold text-[22px] leading-[34px]  text-white md:text-headtext mt-[26px] mb-2  '>{item.title}</h4>
+              <p className='group-hover:text-white transition-all font-secondary text-[16px] leading-[26px] w-[258px] tracking-[-0.25%] text-white md:text-subtext mb-[26px] '>{item.description}</p>
+              <a href="#">
+                <div className='flex items-center gap-[6.5px] cursor-pointer'>
+              <p className='group-hover:text-white transition-all font-secondary font-medium text-[16px] leading-[26px] text-white md:text-primary ' >Read More 
                 
                 </p>
-                <FontAwesomeIcon className='text-primary group-hover:text-white transition-all text-[15px] ' icon={faArrowRightLong}  ></FontAwesomeIcon>
+                <FontAwesomeIcon className='text-white md:text-primary group-hover:text-white transition-all text-[15px] ' icon={faArrowRightLong}  ></FontAwesomeIcon>
               </div>
+              </a>
 
             </div>
           ))}

@@ -11,7 +11,7 @@ import Container from "../Layout/Container";
 
 const Apps = () => {
 	return (
-		<section className="bg-[#F4FAFA] py-15 md:py-[173px]">
+		<section className="bg-[#F4FAFA] py-15 md:pb-[120px] md:pt-[124px]">
 			<Container>
 				<div className="md:flex items-center justify-between ">
 					<div className="">
@@ -32,7 +32,7 @@ const Apps = () => {
 							<Button></Button>
 						</div>
 					</div>
-					<div className="mt-10 md:mt-0">
+					<div className=" md:block flex flex-col  items-center mt-10 md:mt-0">
 						<div className=" flex md:flex-row  gap-x-[10px] flex-wrap     md:gap-x-[30px]">
 							<Apps1></Apps1>
 							<Apps2></Apps2>
@@ -49,7 +49,7 @@ const Apps = () => {
 						</div>
 					</div>
 				</div>
-				<div className="absolute bottom-0 left-0 transform -translate-x-full translate-y-full"> 
+				<div className="absolute -bottom-[98px] -left-[148px]  hidden md:block "> 
 					<img src={Ellipse} alt="Ellipse" />
 				</div>
 			</Container>

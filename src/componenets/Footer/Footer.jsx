@@ -11,14 +11,14 @@ import headContact from "../../assets/contactBanner.png"
 
 const Footer = () => {
   return (
-    <div className='pt-[291px] pb-[30px] bg-[#F7F7FC] mt-[309px]'>
+    <div className='md:pt-[291px] md:pb-[30px] py-50 pb-1 bg-[#F7F7FC] mt-30 md:mt-[309px]'>
       <Container>
-        <div className='absolute -top-[449px] left-0] left-0'>
+        <div className='absolute  -top-60 md:-top-[449px] left-0] left-0'>
           <div className='flex relative '>
             <img src={headContact} alt="headContact" 
           />
-          <div className='absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 w-[1205px] flex justify-between items-center'>
-      <h2 className='w-[577px] font-primary font-bold text-[46px] leading-[58px] text-white  '>Don’t find the answer? contact us for any query. </h2>
+          <div className='absolute top-0 left-0 md:top-1/2 md:left-1/2 md:transform md:-translate-x-1/2 md:-translate-y-1/2 max-w-[1205px] flex justify-between items-center'>
+      <h2 className='max-w-[577px] font-primary font-bold text-lg md:text-[46px] md:leading-[58px] text-white  '>Don’t find the answer? contact us for any query. </h2>
       <a className='py-5 px-12 rounded-[6px] bg-secondary text-headtext font-secondary font-medium leading-5 text-lg ' href="#">Contact Us</a>
     </div>
           </div>

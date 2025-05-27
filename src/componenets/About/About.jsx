@@ -6,14 +6,14 @@ import AboutSlider from "./AboutSlider";
 
 const About = () => {
 	return (
-		<div className="py-[200px] bg-[#F4FAFA]">
+		<div className="py-15 md:py-[200px] bg-[#F4FAFA]">
 			<Container>
-				<div className="flex">
-					<div className="w-1/2">
-						<h2 className="w-[594px] font-primary font-bold text-[46px] leading-[58px] text-headtext ">
+				<div className=" flex md:flex-row gap-y-15 md:gap-y-0 flex-col">
+					<div className="md:w-1/2">
+						<h2 className="max-w-[594px] font-primary font-bold text-[25px] md:text-[46px] md:leading-[58px] text-headtext ">
 							What they are talking about us?
 						</h2>
-						<p className="w-[503px] font-secondary text-lg leading-[32px] tracking-[-0.25% text-subtext] mt-5 mb-10  ">
+						<p className="max-w-[503px] font-secondary text-sm md:text-lg md:leading-[32px] leading-6 tracking-[-0.25%] text-subtext md:mt-5 md:mb-10 mt-2 mb-8  ">
 							testimonials are evidence of customers talking about your product
 							or service in their own words. At their best, they are authentic,
 							descriptive.
@@ -21,7 +21,7 @@ const About = () => {
 						<div>
 							<Button></Button>
 						</div>
-						<div className="mt-[80px] flex flex-row gap-x-[30px] items-center ">
+						<div className="mt-10 md:mt-[80px] flex flex-row gap-x-[30px] items-center ">
 							<img src={aboutCircleShape} alt="aboutCircleShape" />
 							<div>
 								<div className="flex gap-x-[15px]">
@@ -63,7 +63,7 @@ const About = () => {
 							</div>
 						</div>
 					</div>
-					<div className="w-1/2  ">
+					<div className="md:w-1/2  ">
 						<AboutSlider></AboutSlider>
 					</div>
 				</div>

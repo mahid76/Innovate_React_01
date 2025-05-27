@@ -4,10 +4,10 @@ import "slick-carousel/slick/slick.css";
 import star from "../../assets/starpng.png";
 
 function SampleNextArrow(props) {
-	const { className, style, onClick } = props;
+	const { style, onClick } = props;
 	return (
 		<div
-			className={className}
+				className='absolute md:top-[213px] md:-right-15 top-[100%] right-0'
 			style={{
 				...style,
 				display: "flex",
@@ -18,8 +18,6 @@ function SampleNextArrow(props) {
 				color: "#3639A4",
 				borderRadius: "40%",
 				position: "absolute",
-				top: "213px",
-				right: "-60px",
 				zIndex: "1",
 			}}
 			onClick={onClick}
@@ -32,10 +30,10 @@ function SampleNextArrow(props) {
 }
 
 function SamplePrevArrow(props) {
-	const { className, style, onClick } = props;
+	const { style, onClick } = props;
 	return (
 		<div
-			className={className}
+			className='absolute md:top-[213px] md:-left-15 top-[100%] left-0'
 			style={{
 				...style,
 				display: "flex",
@@ -46,8 +44,6 @@ function SamplePrevArrow(props) {
 				color: "#3639A4",
 				borderRadius: "40%",
 				position: "absolute",
-				top: "213px",
-				left: "-60px",
 				zIndex: "1",
 			}}
 			onClick={onClick}
@@ -71,20 +67,20 @@ const AboutSlider = () => {
 		prevArrow: <SamplePrevArrow />,
 	};
 	return (
-		<div className="w-full ">
+		<div className="w-full relative ">
 			<Slider {...settings}>
 				<div className="mt-[67px] py-[10px] relative">
-					<div className="w-[687px] h-[346px] bg-white rounded-[20px] pt-[64px] pb-[50px] px-[60px] relative  shadow-[0px_4px_4px_0px_rgba(0,0,0,0.25)]  ">
-						<p className="font-secondary text-[22px] leading-11 text-subtext mb-[37px]  ">
+					<div className="max-w-[687px] max-h-[346px] bg-white rounded-[20px] pt-15 md:pt-[64px] pb-8 md:pb-[50px] px-6 md:px-[60px] relative  shadow-[0px_4px_4px_0px_rgba(0,0,0,0.25)]  ">
+						<p className="font-secondary text-sm md:text-[22px] leading-8 md:leading-11 text-subtext mb-5 md:mb-[37px]  ">
 							“Wow. Amazing company amazing Expert Manager. They know how to get
 							things done when it comes to online trading.
 						</p>
 						<div className=" flex  justify-between items-end">
 							<div>
-								<h4 className="font-primary font-bold text-2xl leading-[36px] text-headtext mb-1  ">
+								<h4 className="font-primary font-bold text-lg md:text-2xl leading-[36px] text-headtext mb-1  ">
 									Robert Fox
 								</h4>
-								<p className="font-secondary text-[16px] leading-[26px] text-headtext   ">
+								<p className="font-secondary text-sm md:text-[16px] leading-[26px] text-headtext   ">
 									Digital Marketer
 								</p>
 							</div>
@@ -97,20 +93,20 @@ const AboutSlider = () => {
 							</div>
 						</div>
 					</div>
-					<div className="absolute -top-[70px] left-[38px] rounded-full w-[124px] h-[124px] bg-[#C4C4C4] border-[10px] border-[#F7F7FC] "></div>
+					<div className="absolute -top-[54px] md:-top-[70px] left-[23px]  md:left-[38px] rounded-full md:w-[127px] md:h-[127px]  w-[100px] h-[100px] bg-[#C4C4C4] border-[10px] border-[#F7F7FC] "></div>
 				</div>
 				<div className="mt-[67px] py-[10px] relative">
-					<div className="w-[687px] h-[346px] bg-white rounded-[20px] pt-[64px] pb-[50px] px-[60px] relative  shadow-[0px_4px_4px_0px_rgba(0,0,0,0.25)]  ">
-						<p className="font-secondary text-[22px] leading-11 text-subtext mb-[37px]  ">
+					<div className="max-w-[687px] max-h-[346px] bg-white rounded-[20px] pt-15 md:pt-[64px] pb-8 md:pb-[50px] px-6 md:px-[60px] relative  shadow-[0px_4px_4px_0px_rgba(0,0,0,0.25)]  ">
+						<p className="font-secondary text-sm md:text-[22px] leading-8 md:leading-11 text-subtext mb-5 md:mb-[37px]  ">
 							“Wow. Amazing company amazing Expert Manager. They know how to get
 							things done when it comes to online trading.
 						</p>
 						<div className=" flex  justify-between items-end">
 							<div>
-								<h4 className="font-primary font-bold text-2xl leading-[36px] text-headtext mb-1  ">
+								<h4 className="font-primary font-bold text-lg md:text-2xl leading-[36px] text-headtext mb-1  ">
 									Poblaaa
 								</h4>
-								<p className="font-secondary text-[16px] leading-[26px] text-headtext   ">
+								<p className="font-secondary text-sm md:text-[16px] leading-[26px] text-headtext   ">
 									Digital Marketer
 								</p>
 							</div>
@@ -123,20 +119,20 @@ const AboutSlider = () => {
 							</div>
 						</div>
 					</div>
-					<div className="absolute -top-[70px] left-[38px] rounded-full w-[124px] h-[124px] bg-[#C4C4C4] border-[10px] border-[#F7F7FC] "></div>
+					<div className="absolute -top-[54px] md:-top-[70px] left-[23px]  md:left-[38px] rounded-full md:w-[127px] md:h-[127px]  w-[100px] h-[100px] bg-[#C4C4C4] border-[10px] border-[#F7F7FC] "></div>
 				</div>
 				<div className="mt-[67px] py-[10px] relative">
-					<div className="w-[687px] h-[346px] bg-white rounded-[20px] pt-[64px] pb-[50px] px-[60px] relative  shadow-[0px_4px_4px_0px_rgba(0,0,0,0.25)]  ">
-						<p className="font-secondary text-[22px] leading-11 text-subtext mb-[37px]  ">
+					<div className="max-w-[687px] max-h-[346px] bg-white rounded-[20px] pt-15 md:pt-[64px] pb-8 md:pb-[50px] px-6 md:px-[60px] relative  shadow-[0px_4px_4px_0px_rgba(0,0,0,0.25)]  ">
+						<p className="font-secondary text-sm md:text-[22px] leading-8 md:leading-11 text-subtext mb-5 md:mb-[37px]  ">
 							“Wow. Amazing company amazing Expert Manager. They know how to get
 							things done when it comes to online trading.
 						</p>
 						<div className=" flex  justify-between items-end">
 							<div>
-								<h4 className="font-primary font-bold text-2xl leading-[36px] text-headtext mb-1  ">
+								<h4 className="font-primary font-bold text-lg md:text-2xl leading-[36px] text-headtext mb-1  ">
 									Jerry
 								</h4>
-								<p className="font-secondary text-[16px] leading-[26px] text-headtext   ">
+								<p className="font-secondary text-sm md:text-[16px] leading-[26px] text-headtext  ">
 									Digital Marketer
 								</p>
 							</div>
@@ -149,7 +145,7 @@ const AboutSlider = () => {
 							</div>
 						</div>
 					</div>
-					<div className="absolute -top-[70px] left-[38px] rounded-full w-[124px] h-[124px] bg-[#C4C4C4] border-[10px] border-[#F7F7FC] "></div>
+					<div className="absolute -top-[54px] md:-top-[70px] left-[23px]  md:left-[38px] rounded-full md:w-[127px] md:h-[127px]  w-[100px] h-[100px] bg-[#C4C4C4] border-[10px] border-[#F7F7FC] "></div>
 				</div>
 			</Slider>
 		</div>

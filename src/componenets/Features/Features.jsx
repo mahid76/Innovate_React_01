@@ -13,7 +13,7 @@ const Features = () => {
 						<img src={featuresPic} alt="featuresPic" />
 					</div>
 					<div>
-						<h3 className="w-auto md:w-[553px] font-primary font-bold text-2xl md:text-[46px] leading-8 md:leading-[58px] md:tracking-[-1px] text-headtext  ">
+						<h3 className="w-auto text-center md:w-[553px] font-primary font-bold text-[25px] md:text-[46px] leading-8 md:leading-[58px] md:tracking-[-1px] text-headtext  ">
 							We provide features for your Business
 						</h3>
 

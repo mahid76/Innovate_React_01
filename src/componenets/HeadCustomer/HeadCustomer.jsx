@@ -4,7 +4,7 @@ import Container from "../Layout/Container";
 
 const HeadCustomer = ({ children }) => {
 	return <Container>
-    <div className="bg-center bg-no-repeat " style={
+    <div className="rounded-[40px] bg-left-bottom md:rounded-[0px] md:bg-center bg-no-repeat " style={
     {
       backgroundImage: `url(${headCustomer})`
     }
