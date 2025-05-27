@@ -37,7 +37,7 @@ const Features = () => {
 								</p>
 							</div>
 						</div>
-						<div className="flex justify-between relative mt-10 md:mt-[64px]">
+						<div className="md:flex justify-between relative mt-10 md:mt-[64px]">
 							<div className="w-auto md:w-[220px]">
 								<img src={featuresIcon03} alt="" />
 								<h4 className="mt-2 md:mt-[14px] mb-[6px] font-primary font-bold text-[18px] md:text-[22px] md:leading-[34px] tracking-[-0.5%] text-headtext">
@@ -47,13 +47,15 @@ const Features = () => {
 									From lists to boards, organize work your way.
 								</p>
 							</div>
-							<div className=" md:mt-[96px]">
-								<p
-									className=" cursor-pointer md:py-[20px] md:px-[48px] bg-primary text-white rounded-[6px]   "
+							<div className="mt-5 md:mt-[96px]">
+								<a href="#">
+									<p 
+									className=" cursor-pointer py-2  text-center md:py-[20px] md:px-[48px] bg-primary text-white rounded-[6px]   "
 									href="#"
 								>
 									Get Started
 								</p>
+								</a>
 							</div>
 						</div>
 					</div>

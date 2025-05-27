@@ -3,13 +3,13 @@ import React from "react";
 const Apps3 = () => {
 	return (
 		<div>
-			<svg
+			<svg 
 				xmlns="http://www.w3.org/2000/svg"
 				width="151"
 				height="142"
 				viewBox="0 0 151 142"
 				fill="none"
-				className="group cursor-pointer custom_shadow "
+				className="group cursor-pointer custom_shadow  "
 			>
 				<rect width="151" height="142" rx="11.4932" fill="white" />
 				<path className="group-hover:fill-[#43E7DF] duration-200 "

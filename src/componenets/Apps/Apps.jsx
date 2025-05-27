@@ -11,17 +11,17 @@ import Container from "../Layout/Container";
 
 const Apps = () => {
 	return (
-		<section className="bg-[#F4FAFA] py-[173px]">
+		<section className="bg-[#F4FAFA] py-15 md:py-[173px]">
 			<Container>
-				<div className="flex items-center justify-between ">
+				<div className="md:flex items-center justify-between ">
 					<div className="">
-						<h5 className="font-secondary text-[20px] font-medium text-[#FF7364] ">
+						<h5 className="font-secondary text-[18px] md:text-[20px] font-medium text-[#FF7364] ">
 							Integrations
 						</h5>
-						<h1 className="mt-1 mb-5 w-[587px] font-primary text-[46px] font-bold text-headtext leading-[58px] tracking-[-1%] ">
+						<h1 className="mt-1 mb-3 md:mb-5 mx-w-[587px] font-primary text-[30px]  md:text-[46px] font-bold text-headtext md:leading-[58px] tracking-[-1%] ">
 							Easily integrate with your favorite apps
 						</h1>
-						<p className="w-[533px] font-secondary leading-8 tracking-[-0.25%] text-lg text-subtext mb-10  ">
+						<p className="mx-w-[533px] font-secondary md:leading-8 tracking-[-0.25%] text-[18px] md:text-lg text-subtext mb-10  ">
 							App integration, in a general sense, is the process of bringing
 							resources or capabilities from one application to another. As the
 							world of apps continues to evolve, app integration is becoming
@@ -32,17 +32,17 @@ const Apps = () => {
 							<Button></Button>
 						</div>
 					</div>
-					<div className="">
-						<div className="flex  hello gap-x-[30px]">
+					<div className="mt-10 md:mt-0">
+						<div className=" flex md:flex-row flex-col  hello gap-y-3 md:gap-y-0 md:gap-x-[30px]">
 							<Apps1></Apps1>
 							<Apps2></Apps2>
 						</div>
-						<div className="flex gap-x-[30px] my-[34px]">
+						<div className=" flex md:flex-row flex-col gap-x-[30px] my-[34px] gap-y-3 md:gap-y-0 ">
 							<Apps3></Apps3>
 							<Apps4></Apps4>
 							<Apps5></Apps5>
 						</div>
-						<div className="flex gap-x-[30px]">
+						<div className=" flex md:flex-row flex-col gap-x-[30px] gap-y-3 md:gap-y-0 ">
 							<Apps6></Apps6>
 							<Apps5></Apps5>
 							<Apps7></Apps7>
