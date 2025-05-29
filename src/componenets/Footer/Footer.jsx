@@ -9,7 +9,7 @@ import Container from "../Layout/Container";
 
 const Footer = () => {
 	return (
-		<div className="2xl:pt-[291px] 2xl:pb-[30px] py-35  bg-[#F7F7FC] mt-30 2xl:mt-[309px]">
+		<div className="2xl:pt-[291px] 2xl:pb-[30px] pt-35 pb-5  bg-[#F7F7FC] mt-30 2xl:mt-[309px]">
 			<Container>
 				<div className="absolute top-[-200px] 2xl:-top-[464px] left-0 w-full">
 					<div
@@ -31,27 +31,27 @@ const Footer = () => {
 					</div>
 				</div>
 
-				<div className="flex justify-between">
+				<div className="flex flex-col lg:flex-row 2xl:justify-between">
 					<div>
 						<a href="#">
 							<Logo2></Logo2>
 						</a>
-						<p className="font-secondary text-[16px] leading-[28px] text-subtext w-[263px] mt-[26px] mb-[24px]  ">
+						<p className="font-secondary text-sm lg:text-[16px] lg:leading-[28px] text-subtext max-w-[263px] mt-3 mb-3 lg:mt-[26px] lg:mb-[24px]  ">
 							Build a modern and creative website with Innovate.
 						</p>
-						<div className="flex gap-x-[6px]">
+						<div className="flex lg:gap-x-[6px]">
 							<img src={gmail} alt="" />
 							<img src={x} alt="" />
 							<img src={insta} alt="" />
 							<img src={linkedin} alt="" />
 						</div>
 					</div>
-					<div className="flex flex-row gap-x-[83px]">
+					<div className="flex lg:flex-row flex-col gap-y-5  lg:gap-x-[83px]">
 						<div>
-							<h4 className="font-secondary font-medium text-lg leading-8 text-headtext mb-5  ">
+							<h4 className="mt-4 lg:mt-0 font-secondary font-medium text-base lg:text-lg leading-8 text-headtext mb-1 lg:mb-5  ">
 								Product
 							</h4>
-							<ul className="flex flex-col gap-y-3 font-secondary text-[16px] leading-[28px] text-subtext   ">
+							<ul className=" flex flex-col gap-y-[2px] lg:gap-y-3 font-secondary text-xs lg:text-[16px] lg:leading-[28px] text-subtext   ">
 								<li>
 									<a href="#">Landingpages</a>
 								</li>
@@ -67,10 +67,10 @@ const Footer = () => {
 							</ul>
 						</div>
 						<div>
-							<h4 className="font-secondary font-medium text-lg leading-8 text-headtext mb-5  ">
+							<h4 className="font-secondary font-medium text-base lg:text-lg leading-8 text-headtext mb-1 lg:mb-5  ">
 								Company
 							</h4>
-							<ul className="flex flex-col gap-y-3 font-secondary text-[16px] leading-[28px] text-subtext   ">
+							<ul className="flex flex-col gap-y-[2px] lg:gap-y-3 font-secondary text-xs lg:text-[16px] lg:leading-[28px] text-subtext   ">
 								<li>
 									<a href="#">About</a>
 								</li>
@@ -89,10 +89,10 @@ const Footer = () => {
 							</ul>
 						</div>
 						<div>
-							<h4 className="font-secondary font-medium text-lg leading-8 text-headtext mb-5  ">
+							<h4 className="font-secondary font-medium text-base lg:text-lg leading-8 text-headtext mb-1 lg:mb-5  ">
 								Resources
 							</h4>
-							<ul className="flex flex-col gap-y-3 font-secondary text-[16px] leading-[28px] text-subtext   ">
+							<ul className="flex flex-col gap-y-[2px] lg:gap-y-3 font-secondary text-xs lg:text-[16px] lg:leading-[28px] text-subtext    ">
 								<li>
 									<a href="#">Guides and resources</a>
 								</li>
@@ -108,10 +108,10 @@ const Footer = () => {
 							</ul>
 						</div>
 						<div>
-							<h4 className="font-secondary font-medium text-lg leading-8 text-headtext mb-5  ">
+							<h4 className="font-secondary font-medium text-base lg:text-lg leading-8 text-headtext mb-1 lg:mb-5  ">
 								Get Latest Updates
 							</h4>
-							<p className="w-[285px] font-secondary text-[16px] leading-[26px] text-subtext  ">
+							<p className="max-w-[285px] font-secondary text-xs lg:text-[16px] lg:leading-[26px] text-subtext  ">
 								Subscribe to our newsletter and get many interesting things
 								every week
 							</p>
@@ -130,9 +130,9 @@ const Footer = () => {
 						</div>
 					</div>
 				</div>
-				<div className="mt-[86px] w-full rounded-full h-[1px] shadow-md bg-[#D2D2D2] mb-6 "></div>
+				<div className="mt-10 lg:mt-[86px] w-full rounded-full h-[1px] shadow-md bg-[#D2D2D2] mb-3 lg:mb-6 "></div>
 				<a
-					className="text-subtext font-secondary text-[14px] leading-5  "
+					className="text-subtext font-secondary text-[10px] lg:text-[14px] lg:leading-5  "
 					href="#"
 				>
 					© 2024 Innovate - All Right Reserved
