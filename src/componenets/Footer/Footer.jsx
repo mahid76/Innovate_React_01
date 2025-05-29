@@ -17,7 +17,7 @@ const Footer = () => {
 						style={{ backgroundImage: `url(${headContact})` }}
 					>
 						<div className="flex justify-between  items-center">
-							<h1 className="max-w-[577px] w-[200px] font-primary font-bold text-white text-[16px] 2xl:text-[44px]">
+							<h1 className="max-w-[577px] w-[200px] 2xl:w-auto font-primary font-bold text-white text-[16px] 2xl:text-[44px]">
 								Don’t find the answer? contact us for any query.
 							</h1>
 							<div>
