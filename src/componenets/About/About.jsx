@@ -21,43 +21,43 @@ const About = () => {
 						<div>
 							<Button></Button>
 						</div>
-						<div className="mt-10 md:mt-[80px] flex flex-row gap-x-[30px] items-center ">
+						<div className="mt-20 md:mt-[80px] flex flex-row gap-x-[30px] items-center ">
 							<img src={aboutCircleShape} alt="aboutCircleShape" />
 							<div>
-								<div className="flex gap-x-[15px]">
-									<h4 className="font-primary font-black text-2xl leading-[36px] tracking-[-2%] text-[#52C5B6]  ">
+								<div className="flex gap-x-2 lg:gap-x-[15px]">
+									<h4 className="font-primary font-black text-lg lg:text-2xl lg:leading-[36px] tracking-[-2%] text-[#52C5B6]  ">
 										4.5 <span className="text-[#DADBE2]">|</span>
 									</h4>
 
 									<div className="flex items-center gap-x-1">
 										<img
-											className="h-[14.19px] w-13.69pc "
+											className="h-auto w-[9px] w-13.69pc "
 											src={star}
 											alt="star"
 										/>
 										<img
-											className="h-[14.19px] w-13.69pc "
+											className="h-auto w-[9px] w-13.69pc "
 											src={star}
 											alt="star"
 										/>
 										<img
-											className="h-[14.19px] w-13.69pc "
+											className="h-auto w-[9px] w-13.69pc "
 											src={star}
 											alt="star"
 										/>
 										<img
-											className="h-[14.19px] w-13.69pc "
+											className="h-auto w-[9px] w-13.69pc "
 											src={star}
 											alt="star"
 										/>
 										<img
-											className="h-[14.19px] w-13.69pc "
+											className="h-auto w-[9px] w-13.69pc "
 											src={star}
 											alt="star"
 										/>
 									</div>
 								</div>
-								<p className="font-secondary font-medium text-lg leading-8 text-subtext  ">
+								<p className="font-secondary font-medium text-sm lg:text-lg leading-8 text-subtext  ">
 									280k Total Review
 								</p>
 							</div>
