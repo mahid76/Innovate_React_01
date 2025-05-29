@@ -10,7 +10,7 @@ const Apps3 = () => {
 				viewBox="0 0 151 142"
 				preserveAspectRatio="xMidYMid meet"
 				fill="none"
-				className="group w-[83px]  md:w-[151px] h-auto  cursor-pointer custom_shadow  "
+				className="group w-[70px]  md:w-[151px] h-auto  cursor-pointer custom_shadow  "
 			>
 				<rect width="151" height="142" rx="11.4932" fill="white" />
 				<path className="group-hover:fill-[#43E7DF] duration-200 "

@@ -8,7 +8,7 @@ const Apps1 = () => {
 				width="332"
 				height="144"
 				fill="none"
-				className="group  w-[170px]  md:w-[332px] h-auto cursor-pointer custom_shadow "
+				className="group  w-[150px]  md:w-[332px] h-auto cursor-pointer custom_shadow "
 			>
 				<rect width="332" height="142" y="1.143" fill="#fff" rx="11.493" />
 				<g fill="#29313D" fill-opacity=".8" clip-path="url(#a)">
