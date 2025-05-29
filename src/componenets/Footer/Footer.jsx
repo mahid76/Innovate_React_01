@@ -9,20 +9,20 @@ import Container from "../Layout/Container";
 
 const Footer = () => {
 	return (
-		<div className="md:pt-[291px] md:pb-[30px] py-50 pb-1 bg-[#F7F7FC] mt-30 md:mt-[309px]">
+		<div className="2xl:pt-[291px] 2xl:pb-[30px] py-35  bg-[#F7F7FC] mt-30 2xl:mt-[309px]">
 			<Container>
-				<div className="absolute -top-[464px] left-0 w-full">
+				<div className="absolute top-[-200px] 2xl:-top-[464px] left-0 w-full">
 					<div
-						className="py-[100px] px-[102px] rounded-[40px] bg-no-repeat  bg-center bg-cover"
+						className="2xl:py-[100px] 2xl:px-[102px] py-8 px-5 2xl:rounded-[40px] rounded-[15px] bg-no-repeat  bg-center bg-cover"
 						style={{ backgroundImage: `url(${headContact})` }}
 					>
-						<div className="flex justify-between items-center">
-							<h1 className="max-w-[577px] font-primary font-bold text-white text-[44px]">
+						<div className="flex justify-between  items-center">
+							<h1 className="max-w-[577px] w-[200px] font-primary font-bold text-white text-[16px] 2xl:text-[44px]">
 								Don’t find the answer? contact us for any query.
 							</h1>
 							<div>
 								<a href="#">
-									<p className="py-5 px-12 rounded-[6px] bg-secondary text-headtext font-secondary font-medium leading-5 text-lg ">
+									<p className="2xl:py-5 py-2 px-3 2xl:px-12 rounded-[6px] bg-secondary text-headtext font-secondary font-medium leading-5 text-sm 2xl:text-lg ">
 										Contact Us
 									</p>
 								</a>
@@ -144,16 +144,3 @@ const Footer = () => {
 
 export default Footer;
 
-{
-	/* <div className='absolute  -top-60 md:-top-[449px] left-0] left-0'>
-          <div className='flex relative '>
-            <img src={headContact} alt="headContact" 
-          />
-          <div className='absolute top-0 left-0 md:top-1/2 md:left-1/2 md:transform md:-translate-x-1/2 md:-translate-y-1/2 max-w-[1205px] flex justify-between items-center'>
-      <h2 className='max-w-[577px] font-primary font-bold text-lg md:text-[46px] md:leading-[58px] text-white  '>Don’t find the answer? contact us for any query. </h2>
-      
-    </div>
-          </div>
-          
-        </div> */
-}
