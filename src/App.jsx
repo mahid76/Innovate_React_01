@@ -1,18 +1,18 @@
-import About from "./componenets/About/About";
-import Apps from "./componenets/Apps/Apps";
-import Bannner from "./componenets/Banner/Bannner";
-// import Contact from "./componenets/Contact/Contact";
-import Customer from "./componenets/Customer/Customer";
-import Features from "./componenets/Features/Features";
-import Footer from "./componenets/Footer/Footer";
-// import Hcontact from "./componenets/Hcontact/Hcontact";
+import About from "./components/About/About";
+import Apps from "./components/Apps/Apps";
+import Bannner from "./components/Banner/Bannner";
+// import Contact from "./components/Contact/Contact";
+import Customer from "./components/Customer/Customer";
+import Features from "./components/Features/Features";
+import Footer from "./components/Footer/Footer";
+// import Hcontact from "./components/Hcontact/Hcontact";
 
-import HeadCustomer from "./componenets/HeadCustomer/HeadCustomer";
-import Header from "./componenets/Header/Header";
-import Navbar from "./componenets/Navbar/Navbar";
-import Platform from "./componenets/Platform/Platform";
-import Pricing from "./componenets/Pricing/Pricing";
-import Work from "./componenets/Work/Work";
+import HeadCustomer from "./components/HeadCustomer/HeadCustomer";
+import Header from "./components/Header/Header";
+import Navbar from "./components/Navbar/Navbar";
+import Platform from "./components/Platform/Platform";
+import Pricing from "./components/Pricing/Pricing";
+import Work from "./components/Work/Work";
 
 function App() {
 	return (
