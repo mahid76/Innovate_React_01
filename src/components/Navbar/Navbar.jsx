@@ -1,6 +1,6 @@
 // import logo from '../../assets/Logo.png'
 import { useState } from "react";
-import Logo from "../CustomLogo/logo";
+import Logo from "../CustomLogo/Logo";
 import Container from "../Layout/Container";
 import { FaBars } from "react-icons/fa6";
 import { GiCrossedBones } from "react-icons/gi";
