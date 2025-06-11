@@ -1,4 +1,4 @@
-import Button from "../button/Button";
+import Button from "../Button/Button";
 import Apps1 from "../CustomLogo/Apps1";
 import Apps2 from "../CustomLogo/Apps2";
 import Apps3 from "../CustomLogo/Apps3";
