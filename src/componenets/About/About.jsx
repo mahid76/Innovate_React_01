@@ -1,6 +1,6 @@
 import aboutCircleShape from "../../assets/aboutCircleShapepng.png";
 import star from "../../assets/starpng.png";
-import Button from "../button/Button";
+import Button from "../Button/Button";
 import Container from "../Layout/Container";
 import AboutSlider from "./AboutSlider";
 
